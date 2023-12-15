@@ -1,0 +1,68 @@
+.containerCheck{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+
+    margin: auto;
+}
+
+
+.DetalleProductos{
+    display: flex;
+    width: 750px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px -5px;
+    cursor: pointer;
+    margin: 25px auto;
+}
+
+.DetalleProductos:hover{
+    box-shadow: 0px 0px 12px -5px;
+
+}
+
+
+.DetalleProductos img{
+    width: 50%;
+}
+
+
+.InfoProducto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 70%;
+    margin: auto;
+}
+
+.InfoProducto p {
+    margin: 10px;
+}
+
+.botones button{
+    margin: 20px 20px;
+}
+
+.CarritoVacio{
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+    width: 400px;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.btnComprar{
+    width: 300px;
+    background-color: black;
+    color: white;
+}

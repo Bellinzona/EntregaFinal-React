@@ -1,0 +1,22 @@
+.carritoContainer{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    margin: 0 38px;
+    cursor: pointer;
+    position: relative;
+
+}
+
+
+.carritoContainer p {
+    position: absolute;
+    background-color: red;
+    padding: 1px 7px;
+    border-radius: 50%;
+    color: white;
+    font-weight:700;
+    font-size: 15px;
+    left: 20px;
+    top: 7px;
+}
